@@ -1,0 +1,11 @@
+{
+  "name": "org",
+  "connector": "mongodb",
+  "url": "mongodb://org:org@localhost:27017/org",
+  "host": "localhost",
+  "port": 27017,
+  "user": "org",
+  "password": "root",
+  "database": "org",
+  "useNewUrlParser": true
+}
