@@ -7,11 +7,6 @@ pipeline {
   }
   agent any
   stages {
-    stage('Cloning Git') {
-      steps {
-        git 'https://github.com/gaikwadamolraj/loopback4-nodejs.git'
-      }
-    }
     stage('Build') {
        steps {
          sh 'npm install'
@@ -33,16 +28,14 @@ pipeline {
         }
       }
     }
-    stage('Delete prev app') {
+    /*stage('Delete prev app') {
         steps {
             sh "helm del --purge aceme"
         }
-    }
+    }*/
     stage('Deploy to KUBERENTES') {
         steps {
-
-            sh "helm install --name aceme ${pwd()}/aceme --set image.tag ${BUILD_NUMBER}"
-            sh 'kubectl get svc aceme'
+            sh "helm upgrade aceme ${pwd()}/aceme --set image.tag=${BUILD_NUMBER}"
         }
     }
   }
