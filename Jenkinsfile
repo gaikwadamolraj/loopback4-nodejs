@@ -33,9 +33,15 @@ pipeline {
         }
       }
     }
+    stage('Delete prev app') {
+        steps {
+            sh "helm del --purge aceme"
+        }
+    }
     stage('Deploy to KUBERENTES') {
         steps {
-            sh 'helm install --name aceme ' +  ${WORKSPACE} + ' /aceme'
+
+            sh "helm install --name aceme ${pwd()}/aceme --set image.tag ${BUILD_NUMBER}"
             sh 'kubectl get svc aceme'
         }
     }
