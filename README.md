@@ -20,4 +20,7 @@
 | Emoji: heavy check mark             | :heavy_check_mark:      |
 | Emoji: ballot box with check        | :ballot_box_with_check: |
 | Emoji: white check mark             | :white_check_mark:      |
-| Emoji: white check mark             | []                      |
+
+
+- [ ] unchecked
+- [x] checked
