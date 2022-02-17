@@ -4,6 +4,6 @@
 
 
 
-:white_check_mark: emoji checkbox example
-:white_check_mark: emoji checkbox example
+:white_check_mark: - emoji checkbox example
+:white_check_mark: - emoji checkbox example
 
