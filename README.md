@@ -23,4 +23,4 @@
 
 
 - [ ] unchecked
-- [:heavy_check_mark:] checked
+- [&check;] checked
