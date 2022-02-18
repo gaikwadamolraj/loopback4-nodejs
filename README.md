@@ -26,15 +26,15 @@
 - [x] checked
 
 Feature
-[x] Containerize Application Using Docker
-[x] Unit tested
-[x] Integration testing
-[x] Security scan
-[x] Code coverage
-[x] Prototype Design pattern
-[] Context with timeout for api
-[] Context for godog bdd
-[] Authentication
-[] Rate limit autoretry
-[] Audit Trail logs
-[] Bulk fetch/delete/create
+  [x] Containerize Application Using Docker
+  [x] Unit tested
+  [x] Integration testing
+  [x] Security scan
+  [x] Code coverage
+  [x] Prototype Design pattern
+  [] Context with timeout for api
+  [] Context for godog bdd
+  [] Authentication
+  [] Rate limit autoretry
+  [] Audit Trail logs
+ [] Bulk fetch/delete/create
