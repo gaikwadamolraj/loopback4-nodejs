@@ -1,7 +1,7 @@
 {
   "name": "org-demo-mongo",
   "version": "1.0.0",
-  "description": "This is a sample demo for org details using mongodb",
+  "description": "This is a sample demo for org details using mongodb latest js",
   "keywords": [
     "loopback-application",
     "loopback"
