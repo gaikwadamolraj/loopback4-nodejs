@@ -57,7 +57,7 @@
     "loopback-connector-mongodb": "^4.2.0"
   },
   "devDependencies": {
-    "@loopback/build": "^2.0.0",
+    "@loopback/build": "^9.0.6",
     "@loopback/testlab": "^1.6.0",
     "@types/node": "^10.14.8",
     "@typescript-eslint/parser": "^1.10.2",
